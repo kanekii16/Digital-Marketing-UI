@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    font-family: "Lato", serif;
+}
+
+h1{
+    font-family: "Cormorant SC", serif;
+    font-weight: 600;
+    font-size: 4vw;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+    font-size: 0.4vw;
+  
+    
+}
+
+.contact{
+    background-color: #FF3147 !important;
+    color: #f4f4f4 !important;
+}
+
+.contact:hover{
+    background-color: #fa6170 !important;
+}
+
+div{
+    margin-bottom: 1rem;
+}
+
+.section-desc{
+    font-family: "Cormorant SC", serif;
+    font-weight: 800;
+    font-size: 2vw;
+    color: #FF3147;
+    text-transform: capitalize;
+}
+
+.btn{
+    width: 10vw;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+}
+
+.Whole-section{
+    padding: 0;
+}
+
+
+
+/* Hero Section Styling  */
+.hero{
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    padding: 30px 100px 0 100px ;
+    align-items: center;
+    
+}
+
+
+
+.hero-left{
+    padding: 25px 0 0 25px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.hero-right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+.hero-right > .hero-img{
+    width: 65%;
+    
+}
+
+
+/* What we do section */
+
+.section-two{
+   padding-left: 100px;
+}
+
+.section-two-top{
+    display: flex;
+    align-items: flex-start;
+    padding: 30px 100px 0 0 ;
+}
+
+.two-left{
+    width: 40%;
+    
+}
+.two-right{
+    width: 60%;
+    padding-top: 1rem;
+}
+
+.slider-section{
+    overflow-x: scroll;
+    display: flex;
+}
+
+
+.slider-section > .slider-div{
+
+    margin: 10px;
+}
+
+.slider-div{
+    position: relative;
+}
+
+.slider-section > div > img{
+  
+   width: 20vw;
+   border-radius: 5px;
+   
+}
+
+.slider-section::-webkit-scrollbar{
+    display: none;
+}
+
+.slider-points{
+    width: 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.block-element{
+    width: 20vw;
+    background-color: #FF3147;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 1s ease;
+
+}
+.slider-section >.block-element > img{
+    width: 3vw;
+}
+
+.block-element > div{
+    width: 80%;
+    text-align: center;
+    /* margin: 5px; */
+}
+
+.block-element > div > span{
+    font-size: 10px;
+}
+
+.block-element > button{
+    padding: 5px 15px;
+    border: none;
+    background-color: #f4f4f4;
+    align-items: center;
+    cursor: pointer;
+}
+
+.block-element > button > a{
+    text-decoration: none;
+    color: #FF3147;
+}
+
+.block-element:hover{
+    opacity: 1;
+}
+
+/* Why choose us Section */
+
+.section-three{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 100px 0 100px ;
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+.card{
+    /* width: 15vw; */
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.card > span{
+    font-weight: 500 ;
+    margin: 10px 0;
+}
+
+.card > img{
+    width: 3vw;
+}
+.card > p{
+    text-wrap: wrap;
+    font-size: 0.2vw !important;
+}
+
+
+/* Our Project Section */
+
+.section-four{
+    padding: 0px 100px;
+    font-family: "Poppins", sans-serif;
+   
+}
+
+.four-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.four-left{
+    width: 55%;
+   
+}
+
+.four-left > img{
+    width: 100%;
+    padding-top: 1rem;
+   
+}
+
+.four-right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.four-right > button{
+    border: none;
+    text-align: left;
+    padding: 1.8vw 2vw;
+    
+    border-radius: 5px;
+}
+
+.content-heading{
+    font-weight: 600;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.content-button:focus{
+    background-color: #FF3147;
+}
+
+/* our company growth section */
+
+.section-fifth{
+    
+    text-align: center;
+    padding: 30px 100px 0 100px ;
+}
+
+.growth-card-container{
+    justify-content: space-around;
+}
+
+.growth-card{
+    text-align: center;
+    align-items: center;
+    width: 15vw;
+}
+
+.growth-card > img{
+    width: 2vw;
+}
+
+.growth-card > span{
+    font-size: 2rem;
+}
+
+.growth-card:hover{
+    /* transform: scale(1.2); */
+    border: 1px solid white;
+    box-shadow: 5px 10px 20px #672C2C1F;;
+}
+
+
+/* Feed Back  */
+
+.section-sixth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+}
+
+.feedback{
+    text-align: center;
+    padding: 30px 100px 0 100px ;
+    width: 60vw;
+}
+.feedback > p{
+    text-align: left;
+}
+.author{
+    display: flex;
+    align-items:flex-start;
+}
+
+.author > .author-name{
+    color: #FF3147;
+    
+}
+.author > .comapnay-name{
+    color: #808080;
+}
+
+/* Footer Section*/
+
+.footer{
+  background-color: #FF3147;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.footer > .brands{
+    width: 60vw;
+}
+.footer > .brands > img{
+    width: 100%;
+}
+
+/* Form  */
+
+form{
+    font-family: "Poppins", sans-serif;
+}
+
+/* .input-style{
+    border-top: none;
+    border-left: none ;
+    border-right: none;
+    outline: none;
+}
+
+.label-style{
+    color: #808080;
+    display: block;
+} */
+

@@ -1,0 +1,126 @@
+
+
+.form-box{
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    background-color: white;
+    left: 30%;
+    top: 30%;
+    z-index: 999;
+}
+.pop-up{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #e8e9ec;   
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px #e8e9ec;
+}
+
+.show-box{
+    display: block;
+    opacity: 1;
+}
+
+.hide{
+    display: none;
+}
+
+form > div > input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #e8e9ec;
+    margin: 10px;
+}
+
+form > button{
+    width: 60%;
+    align-self: center;
+    background-color: #FF3147;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #e8e9ec;
+}
+
+.input-style{
+    width: 10vw;
+    display: inline;
+    outline: none;
+}
+
+.email-box{
+    position: relative;
+}
+
+
+.name-box{
+    position: relative;
+}
+
+
+.email-style{
+    width: 80%;
+    outline: none;
+}
+
+.label-style{
+    position: absolute;
+    bottom: 1.5rem;
+    color: #919398;
+    margin: 10px;
+    font-size: 5px;
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.lname{
+    left: 153px;
+}
+
+
+.check-box{
+    display: flex;
+}
+
+.check-box > span{
+    color: #919398;
+    font-size: 8px;
+}
+
+.checks:checked{
+    accent-color: #FF3147;
+}
+
+.body-transparency{
+    opacity: 0.5;
+}
+
+
+/* .fname{
+    position: absolute;
+    bottom: 1.5rem;
+    margin: 10px;
+    font-size: 5px;
+    color: #919398;
+}
+
+.lname{
+    position: absolute;
+    margin: 10px;
+    font-size: 5px;
+    color: #919398;
+    bottom: 1.5rem;
+} */
+
+
+
+
